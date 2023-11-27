@@ -9,4 +9,3 @@ print(m.factorial(5))
 print(m.sqrt(4))
 print(m.pow(2, 3))
 print(m.cos(0))
-
