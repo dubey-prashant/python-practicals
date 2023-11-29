@@ -1,6 +1,6 @@
 import sqlite3 as sql 
 
-con = sql.connect('practice/sqlite/db/students.sqlite')
+con = sql.connect('dummy-data/db/students.sqlite')
 
 cur = con.cursor()
 cur.execute('DROP TABLE IF EXISTS students')
